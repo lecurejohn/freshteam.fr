@@ -45,4 +45,5 @@
     flex-wrap: wrap;
     color: black;
     font-weight: 600;
+    overflow: auto;
 }
