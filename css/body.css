@@ -3,6 +3,7 @@
     height: 500px;
     background-color: rgb(255, 255, 255);
     display: flex;
+    flex-direction: column;
     align-items: center;
     width: 100%;
 }
@@ -12,6 +13,8 @@
     height: 400px;
     background-size: cover;
     margin-right: 5%;
+    margin-top: 20px;
+    margin-bottom: 40px;
     border-radius: 80px;
     transition: 0.5s;
     transform-style: preserve-3d;
