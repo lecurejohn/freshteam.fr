@@ -43,7 +43,7 @@ a{
 
 /* , .header_auth .header_button:nth-child(2) */
 .header_button:hover {
-    background-color: rgb(15, 11, 11);
+    background-color: rgb(3, 1, 22);
     font-weight: 200;
 }
 
