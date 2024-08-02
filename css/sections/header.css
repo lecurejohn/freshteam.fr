@@ -9,7 +9,8 @@
 .header_logo {
     font-size: 30px;
     font-family:"Playwrite HR", cursive;
-    background: linear-gradient( to left, red,rgb(205, 29, 29),rgb(255, 255, 255));
+    /* background: linear-gradient( to left, red,rgb(205, 29, 29),rgb(255, 255, 255)); */
+    background: white;
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -27,8 +28,8 @@
     border: none;
     outline: none;
 
-    background-color: rgb(80, 80, 180) ;
-    color: white;
+    background-color:transparent ;
+    color: rgb(255, 255, 255);
     font-size: 15px;
     font-weight: 500px;
     line-height: 43px;
@@ -39,14 +40,16 @@ a{
     text-decoration: none;
     color: rgb(254, 246, 246);
 }  
-.header_button:hover, .header_auth .header_button:nth-child(2){
-    background-color: rgb(241, 14, 14);
-    color: rgb(0, 0, 0);
+
+/* , .header_auth .header_button:nth-child(2) */
+.header_button:hover {
+    background-color: rgb(15, 11, 11);
+    font-weight: 200;
 }
 
 
 body{
-    background-color: rgb(33, 33, 71);
+    background-color: rgb(84, 84, 211);
     color: white;
     height: 100vh;
     margin: 0;
