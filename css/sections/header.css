@@ -3,14 +3,16 @@
     display: flex;
     text-align: center;
     justify-content: space-between;
-    margin: 20px;
+    margin: 0px;
+    width: 100%;
     flex-wrap: wrap;
+    /* background-color: rgba(197, 223, 247, 0.4); */
 }
 .header_logo {
     font-size: 30px;
     font-family:"Playwrite HR", cursive;
     /* background: linear-gradient( to left, red,rgb(205, 29, 29),rgb(255, 255, 255)); */
-    background: white;
+    background: rgb(63, 0, 235)/*white*/;
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -21,15 +23,15 @@
 }
 
 .header_button{
-    padding: 9px 20px;
+    padding: 2px 15px;
     margin: 0 2px;
 
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     outline: none;
 
     background-color:transparent ;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     font-size: 15px;
     font-weight: 500px;
     line-height: 43px;
@@ -38,19 +40,19 @@
 }
 a{
     text-decoration: none;
-    color: rgb(254, 246, 246);
+    color: rgb(47, 0, 174);
 }  
 
 /* , .header_auth .header_button:nth-child(2) */
 .header_button:hover {
-    background-color: rgb(3, 1, 22);
+    background-color: rgba(255, 255, 255, 0.5);
     font-weight: 200;
 }
 
 
 body{
-    background-color: rgb(28, 28, 133);
-    color: white;
+    background-color: rgb(250, 231, 231);
+    color: rgb(0, 0, 0);
     height: 100vh;
     margin: 0;
     padding: 0;
